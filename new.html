@@ -14,7 +14,7 @@
 		<a href="index.html">Главная</a>
 		<a href="new.html">Недавние открытия</a>
 		<a href="human.html">Учёные</a>
-	</div>
+	</div><br><br>
 		
 
 	<div class="container">
@@ -34,7 +34,7 @@
 			font-family: roboto;
 		}
 		.nav{
-			min-width:100%;
+			width:100%;
 			height: 50px;
 			background-color: black;
 			margin: 0 auto;
@@ -70,6 +70,23 @@
 			height: 350px;
 			object-fit: cover;
 			border-radius:20px;
+		}
+		@media (max-width:600px){
+			.nav{
+				margin-left: 0px;
+			}
+			.nav h3{
+				display:none;
+			}
+			.container{
+				width: 90%;
+				padding:0;
+			}
+			.container img{
+				width:100%;
+
+			}
+
 		}
 	</style>
 </body>
